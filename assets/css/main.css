@@ -21,7 +21,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #000000; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -101,7 +101,7 @@ html {
       font-size: 11pt; } }
 
 body {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #444444; }
 
 body, input, select, textarea {
@@ -130,7 +130,8 @@ p {
 
 header.special {
   text-align: center;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  }
   header.special p {
     max-width: 75%;
     margin-left: auto;
@@ -1798,7 +1799,7 @@ ul.icons {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, .75);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -1811,7 +1812,7 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/eye_black.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2015,7 +2016,7 @@ ul.icons {
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.6;
+    opacity: 0;
     position: absolute;
     top: 0;
     webkit-linear-gradientidth: 100%;
@@ -2061,7 +2062,7 @@ ul.icons {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.jpg);
+  background-image: url(../../images/eye_gravel.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2392,7 +2393,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    background-image: url(../../images/moon_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
