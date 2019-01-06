@@ -2002,7 +2002,7 @@ ul.icons {
     -webkit-transition-delay: 1.25s;
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
-    background: #111111;
+    background: #000000;
     content: '';
     display: block;
     height: 100%;
